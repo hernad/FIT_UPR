@@ -1,0 +1,13 @@
+h1. UPR Uvod u programiranje 
+
+h2. Osnovne info o predmetu
+
+Nastavna godina: 2009/2010, I semestar
+
+ * Profesor: doc. dr Safet Isić
+ * Asistent: Denis Mušić, Indira Hamulić
+
+
+h2. Sadržaj
+
+Ovaj repozitorij sadrži materijale koje sam pravio tokom priprema za ovaj ispit.
