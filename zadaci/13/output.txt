@@ -1,0 +1,12 @@
+nasao: z_13.cpp, press enter to compile
+
+running: gcc -lstdc++ z_13.cpp
+press enter to run a.out
+
+----------------------- xxxxxxxxxxx ---------------------------
+Ime:		Ismet
+Prezime:	Maksumić
+Radno mjesto:	FIT
+
+----------------------- xxxxxxxxxxx ---------------------------
+

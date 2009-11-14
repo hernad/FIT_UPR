@@ -1,0 +1,6 @@
+Napravite program koji će ispisati sljedeći tekst, koristeći “\t“ za tabulator
+
+Ime:           Ismet
+Prezime:       Maksumic
+Radno mjesto:  FIT
+
