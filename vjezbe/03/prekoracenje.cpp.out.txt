@@ -1,11 +1,13 @@
-nasao: prekoracenje.cpp, press enter to compile
+sao: prekoracenje.cpp, press enter to compile
 
 running: gcc -lstdc++ prekoracenje.cpp
-press enter to run a.out
 
+
+press enter to run a.out
 ----------------------- xxxxxxxxxxx ---------------------------
 Vrijednost varijable je:2147483647
 nakon sabiranje sa 1 je:-2147483648
-
+nakon sabiranja 65535 sa 1 dolazi do prekoracenja opsega pa je rezultat 0
+nakon sabiranja 65535 sa 1 dolazi do prekoracenja pa kompajler pretvara u int  - desava se casting: 65536
+sizeof(b2) = 2 ,  sizeof(b2+1) = 4
 ----------------------- xxxxxxxxxxx ---------------------------
-
