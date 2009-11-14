@@ -1,0 +1,11 @@
+nasao: prekoracenje.cpp, press enter to compile
+
+running: gcc -lstdc++ prekoracenje.cpp
+press enter to run a.out
+
+----------------------- xxxxxxxxxxx ---------------------------
+Vrijednost varijable je:2147483647
+nakon sabiranje sa 1 je:-2147483648
+
+----------------------- xxxxxxxxxxx ---------------------------
+

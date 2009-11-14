@@ -1,0 +1,15 @@
+bringout@vbox-386-15:~/devel/fit-mostar/upr/vjezbe/03$ comp sizeoff_1.cpp 
+
+running: gcc -lstdc++ sizeoff_1.cpp
+press enter to run a.out
+
+----------------------- xxxxxxxxxxx ---------------------------
+Velicina int-a je:	4bajta
+Velicina short int-a je:	2bajta
+Velicina long int-a je:	4bajta
+Velicina char-a je:	1bajta
+Velicina float-a je:	4bajta
+Velicina double-a je:	8bajta
+
+----------------------- xxxxxxxxxxx ---------------------------
+
