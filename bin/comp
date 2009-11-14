@@ -47,6 +47,8 @@ for f in $file_glob; do
 
   echo press enter to run a.out
   read
+  echo "----------------------- xxxxxxxxxxx ---------------------------"
   ./a.out
-
+  echo ""
+  echo "----------------------- xxxxxxxxxxx ---------------------------"
 done
