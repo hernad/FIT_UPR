@@ -1,0 +1,29 @@
+
+b) void main varijanta
+
+gcc prijavljuje:
+
+z_1b.cpp:5: error: ‘::main’ must return ‘int’
+
+razlog: void main nije u skladu sa ANSI C standardom
+
+
+Reference:
+
+http://users.aber.ac.uk/auj/voidmain.shtml
+
+Zaključak:
+    So, if you want your software to be portable, please make main return int. *It does matter*.
+
+
+http://www.sunmanagers.org/pipermail/summaries/2004-September/005670.html
+
+In trying to compile some old test Unix C programs... I was not able to compile the programs. 
+After a while of tying to debug the programs that were of format:
+
+    void main(int argc, char *argv[]) or
+
+    void main(int argc, char *argv[])
+
+*That's not legal according to the ANSI C standard; it also resulted in bad exit code if main() falls of it end.*
+

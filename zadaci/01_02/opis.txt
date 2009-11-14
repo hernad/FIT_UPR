@@ -1,0 +1,16 @@
+Zadatak 1:
+Napravite program 'Hello World' u Visual C++-u (2003/2005/2008):
+   a) tako što ćete koristiti void main()
+   b) tako što ćete koristiti int main()
+
+
+Pomoć:
+ - program 'Hello World' predstavlja kratki program koji samo ispisuje neku poruku
+ - ako koristite void main() onda ne smijete na kraju programa dodati return 0
+ - ako koristite int main() onda morate na kraju programa return 0
+ - naredba return 0 se stavlja poslije naredbe system("PAUSE")
+ - sa system("pause") pozivamo DOS-ovu naredbu "PAUSE" koja će konzolni (DOS-ov)
+   prozor pauzirati dok ne pritisnemo neku tipku
+ - ako ne želimo da nam se ispisuje poruka „press any key to continue“ onda ćemo
+   koristiti naredbu system("PAUSE > nul")
+
