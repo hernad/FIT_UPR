@@ -1,0 +1,18 @@
+bringout@vbox-386-15:~/devel/fit-mostar/upr/zadaci/12$ comp z_12.cpp 
+---------------------------------------------------
+hernad@bring.out.ba, v0.01, 14.11.09
+compile zadajuci file name sa sa dzokerima
+--------------------------------------------------
+.
+nasao: z_12.cpp, press enter to compile
+
+running: gcc -lstdc++ z_12.cpp
+press enter to run a.out
+
+----------------------- xxxxxxxxxxx ---------------------------
+Ime:		Ismet
+Prezime:	Maksumić
+Zaposlen:	FIT
+
+----------------------- xxxxxxxxxxx ---------------------------
+

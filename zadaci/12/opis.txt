@@ -1,0 +1,11 @@
+Zadatak 12:
+
+Kratka napomena:
+   - “\t“ u cout-ispisu predstavlja tabulator,
+   - “\t“ mora biti pod navodnicima, isto kao “\n“
+
+Napravite program koji će ispisati sljedeći tekst, koristeći “\t“ za tabulator
+Ime:      Ismet
+Prezime: Maksumic
+Zaposlen: FIT
+
