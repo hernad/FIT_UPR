@@ -1,0 +1,12 @@
+Na vjezbama je stavljena formula
+
+9 * temp_f / 5 + 32 čime će rezultat uvijek biti cijeli broj. 
+
+Ne znam zašto je to tako stavljeno. Po meni je to loše rješenje, s obzirom da nije naglašeno "zaokruženo na cijeli broj"
+
+hmm ... nisam u pravu.
+
+Rezultat je potpuno isti, kako sam provjerio u source-u
+
+izgleda da se prilikom int * float desi casting na float;
+

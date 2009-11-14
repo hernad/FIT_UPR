@@ -1,0 +1,24 @@
+bringout@vbox-386-15:~/devel/fit-mostar/upr/vjezbe/02$ comp farenheit2celsius.cpp 
+---------------------------------------------------
+hernad@bring.out.ba, v0.01, 14.11.09
+compile zadajuci file name sa sa dzokerima
+--------------------------------------------------
+.
+nasao: farenheit2celsius.cpp, press enter to compile
+
+running: gcc -lstdc++ farenheit2celsius.cpp
+press enter to run a.out
+
+----------------------- xxxxxxxxxxx ---------------------------
+unesite temperaturu u Celsius: 45.58
+
+Rezultat - temperatura u Farenheit je:114.044
+ ----------- varijanta - kako je stavljeno na vjezbama: --------
+
+Rezultat varijanta cjelobrojno - temperatura u Farenheit je:114.044
+ ----------- varijanta 3 - ovo nece valjati - jer 9/5 pravi cjelobrojno djeljenje : --------
+
+Rezultat varijanta  - 3 cjelobrojno - temperatura u Farenheit je:77.58
+
+----------------------- xxxxxxxxxxx ---------------------------
+
