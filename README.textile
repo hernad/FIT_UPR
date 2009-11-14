@@ -11,3 +11,6 @@ Nastavna godina: 2009/2010, I semestar
 h2. Sadržaj
 
 Ovaj repozitorij sadrži materijale koje sam pravio tokom priprema za ovaj ispit.
+
+
+Ernad Husremović, hernad@bring.out.ba
