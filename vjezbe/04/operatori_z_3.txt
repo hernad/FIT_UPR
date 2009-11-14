@@ -1,0 +1,58 @@
+Zadatak 3:
+
+Napišite program koji će omogućiti unos dva cijela broja, usporediti ih, te ispisati veći
+broj. Obavezno upotrijebite uvjetni operator. Poštujte sve faze procesa programiranja.
+
+
+Analiza i specifikacija:
+=========================
+
+Input: dva cijela broja
+
+Output: veći od dva unesena
+
+Konstante: -
+
+
+Specifikacija podataka:
+
+Podaci:  Vrsta_vrijednosti: Tip:
+
+b_1      var                int
+b_2      var                int
+
+
+
+Dizajn - dijagram toka
+=======================
+
+                   
+                ( start )
+                    |
+                    v
+                \ b_1, b2 / 
+                    |
+                    v
+                   / \
+    |---da--- <  b_1 >= b_2 > ----- ne -|
+    |              \ /                  |
+    v                                   v
+  / b_1 \                           /  b_2 \
+     |                                  |
+     ------------------------------------
+                     |
+                     v
+                 ( kraj )
+      
+
+
+Rezultat
+====================
+
+
+----------------------- xxxxxxxxxxx ---------------------------
+Unesite dva cijela broja
+3
+9
+Najveci je 9
+
