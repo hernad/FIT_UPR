@@ -1,0 +1,5 @@
+Zadatak 1:
+Napravite program 'Hello World' u Visual C++-u (2003/2005/2008):
+   a) tako što ćete koristiti void main()
+   b) tako što ćete koristiti int main()
+

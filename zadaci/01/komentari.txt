@@ -1,0 +1,8 @@
+
+b)
+
+gcc prijavljuje:
+
+z_1b.cpp:5: error: ‘::main’ must return ‘int’
+
+razlog: void main nije u skladu sa ANSI C standardom
