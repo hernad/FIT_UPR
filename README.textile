@@ -13,4 +13,39 @@ h2. Sadržaj
 Ovaj repozitorij sadrži materijale koje sam pravio tokom priprema za ovaj ispit.
 
 
+h2. setup environment
+
+linux/ubuntu
+
+
+h3. git poll repos-a 
+
+<pre>
+mkdir ~/devel/fit-mostar
+cd ~/devel/fit-mostar
+
+
+git clone git@gitorious.org:fit-mostar/upr.git (internet lokacija)
+
+ili
+
+git clone git@gitorious.bring.out.ba:fit-mostar/upr.git (bring.out intranet)
+
+
+</pre>
+
+h3. bashrc_fit
+
+na kraj ~/.bashrc dodati:
+<pre> 
+. ~/.bashrc_fit
+</pre>
+
+sadrzaj ~/.bashrc_fit:
+<pre>
+#!/bin/bash
+
+export PATH=$PATH:~/bin:~/devel/fit-mostar/upr/bin
+</pre>
+
 Ernad Husremović, hernad@bring.out.ba
