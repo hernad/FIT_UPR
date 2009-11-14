@@ -1,0 +1,49 @@
+Zadatak 4: 
+
+Napišite program koji će za uneseno malo slovo engleske abecede ispisati to
+isto slovo samo veliko i obrnuto, za uneseno veliko slovo ispisati malo. Obavezno
+upotrijebite uvjetni operator. Poštujte sve faze procesa programiranja.
+
+
+Napomene: Prisjetite se osobina tipa podatka character! Kakav je tip podatka character?
+Kako se kompajler "ponaša" prema tipu podatka char? 
+
+Koje vrijednosti imaju velika i mala slova prema ASCII kodnoj shemi?
+
+
+
+Analiza i specifikacija:
+====================
+
+ulaz: znak engleske abecede
+
+izlaz: invertovano slovo (m->, v-m)
+
+konstante: -
+
+
+
+Dizajn
+=======
+
+Podatak opis, identif:     vrsta (var/const):  tip:      
+
+slovo eng abecede, c_eng       var           char
+
+
+Test - output
+==============
+
+----------------------- xxxxxxxxxxx ---------------------------
+Unesite slovo eng alfabeta
+V
+Invert v
+
+----------------------- xxxxxxxxxxx ---------------------------
+
+bringout@vbox-386-15:~/devel/fit-mostar/upr/vjezbe/04$ ./a.out
+
+Unesite slovo eng alfabeta
+H
+Invert h
+

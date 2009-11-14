@@ -13,19 +13,20 @@ Output: veći od dva unesena
 
 Konstante: -
 
+Dizajn
+=======================
 
-Specifikacija podataka:
 
-Podaci:  Vrsta_vrijednosti: Tip:
+Podatak, identif:    Vrsta_vrijednosti:  Tip:
+-----------------     ----------------  ----
 
-b_1      var                int
-b_2      var                int
+broj 1, b_1            var               int
+broj 2, b_2            var               int
 
 
 
 Dizajn - dijagram toka
-=======================
-
+-----------------------
                    
                 ( start )
                     |
