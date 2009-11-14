@@ -1,0 +1,52 @@
+#!/bin/bash
+
+
+usage ()
+{
+echo '$0 flo*1* => pravi a.out za fajl koji se zove float_1.cpp ili flo1.cpp'
+}
+
+title ()
+{
+echo ---------------------------------------------------
+echo hernad@bring.out.ba, v0.01, 14.11.09
+
+echo compile zadajuci file name sa sa dzokerima
+echo --------------------------------------------------
+echo .
+}
+
+
+compile()
+{
+
+line="gcc -lstdc++ $file"
+echo "running: $line"
+
+$line
+EXIT_STATUS=$?
+
+}
+
+
+
+title
+
+file_glob=$1
+
+for f in $file_glob; do
+  file=$f
+  echo "nasao: $file, press enter to compile"
+  read
+  compile
+
+  if [ $EXIT_STATUS != 0 ]; then
+     echo "ERRROR !!!!!!"
+     exit 1
+  fi 
+
+  echo press enter to run a.out
+  read
+  ./a.out
+
+done

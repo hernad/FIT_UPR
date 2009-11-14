@@ -9,7 +9,6 @@ int main()
 	string s_large;
 	const string s_title = "Float preciza 1, v3";
 
-
         // float - 4 bajta  : predznak 1 bit + 8 bita exponent + 23 bita mantisa =>  +/- 3.4e +/- 38 (~7 digits)
         // double - 8 bajta : predznak 1 bit + 11 bita exp + 52 bita mantisa =>  exp  +/- 1.7e +/- 308 (~15 digits)
 	// long double - 10 bajta: predznak 1 bit + 15 bita exp + 64 bita mantisa => +/- 3.4 e +/-4932 (~19 digits)
