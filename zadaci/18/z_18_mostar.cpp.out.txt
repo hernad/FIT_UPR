@@ -1,0 +1,32 @@
+bringout@vbox-386-15:~/devel/fit-mostar/upr/zadaci/18$ ./a.out
+Varijanta ispisa varijanta a / b / c / d : a
+Varijanta :a
+Mostar
+
+
+bringout@vbox-386-15:~/devel/fit-mostar/upr/zadaci/18$ ./a.out
+Varijanta ispisa varijanta a / b / c / d : b
+Varijanta :b
+M-o-s-t-a-r
+
+
+bringout@vbox-386-15:~/devel/fit-mostar/upr/zadaci/18$ ./a.out
+Varijanta ispisa varijanta a / b / c / d : c
+Varijanta :c
+M
+o
+s
+t
+a
+r
+
+bringout@vbox-386-15:~/devel/fit-mostar/upr/zadaci/18$ ./a.out
+Varijanta ispisa varijanta a / b / c / d : d
+Varijanta :d
+M
+ o
+  s
+   t
+    a
+     r
+
