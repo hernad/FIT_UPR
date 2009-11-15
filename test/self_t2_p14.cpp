@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// na stranu sto ne bi trebalo biti void main ..
+
 void main()
 {
 
@@ -12,5 +14,7 @@ void main()
 
 	cout << r * r * pi << "1" << "endl";
 
+	// ovo je, kad bi bio dozvoljen void main, nepotrebno
 	return 0;
+
 }
