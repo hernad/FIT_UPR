@@ -25,5 +25,5 @@ After a while of tying to debug the programs that were of format:
 
     void main(int argc, char *argv[])
 
-*That's not legal according to the ANSI C standard; it also resulted in bad exit code if main() falls of it end.*
+*That's not legal according to the ANSI C standard; it also resulted in bad exit code if main() falls before its end.*
 
