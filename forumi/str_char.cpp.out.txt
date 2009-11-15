@@ -1,0 +1,9 @@
+sao: str_char.cpp, press enter to compile
+
+running: gcc -lstdc++ str_char.cpp
+
+press enter to run a.out
+----------------------- xxxxxxxxxxx ---------------------------
+66
+
+----------------------- xxxxxxxxxxx ---------------------------
