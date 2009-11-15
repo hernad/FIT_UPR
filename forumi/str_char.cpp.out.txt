@@ -1,4 +1,4 @@
-sao: str_char.cpp, press enter to compile
+nasao: str_char.cpp, press enter to compile
 
 running: gcc -lstdc++ str_char.cpp
 
