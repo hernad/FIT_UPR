@@ -12,15 +12,16 @@ int main()
           principal = 1000.0,   // starting principal
           rate = .05;                // interest rate
 
-   cout << "Year" << setw( 21 ) //širina zapisa
-        << "Amount on deposit" << endl;
+   cout << setw(4) << "Year" 
+        << setw(21) << "Amount on deposit" << endl;
 
    for ( int year = 1; year <= 10; year++ )    //postinkrement kao brojač
    {
 
       amount = principal * pow( 1.0 + rate, year );
-      cout << setw( 4 ) << year
+      cout << setw(4) << year
            << setiosflags( ios::fixed | ios::showpoint ) //decimalna tačka
+
            << setw( 21 ) << setprecision( 2 )   //tačnost na dvije decimale
            << amount << endl;
    }
