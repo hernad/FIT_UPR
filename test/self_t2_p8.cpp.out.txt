@@ -1,0 +1,7 @@
+running: gcc -lstdc++ self_t2_p8.cpp
+
+press enter to run a.out
+----------------------- xxxxxxxxxxx ---------------------------
+DrugiTreci
+----------------------- xxxxxxxxxxx ---------------------------
+
