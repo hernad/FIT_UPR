@@ -1,0 +1,20 @@
+Ovaj mi algoritam skroz čudan
+
+Konkretno na switch selekciji dovoljno je bilo reći
+
+case 0:
+  prijestup
+  break;
+default:
+  nije_prijestup ..
+
+
+ali kad pogledamo dalje ustvari switch uopšte nije trebao ???
+
+if 0
+  prijestup
+else
+  nije_prijestup
+
+čudno ... meni se čini kao loš primjer
+
