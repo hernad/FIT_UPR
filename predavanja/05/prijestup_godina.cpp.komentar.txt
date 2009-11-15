@@ -22,3 +22,8 @@ Jedino razložno objašnjenje je da je switch stavljen radi demonstracije
 switch statementa :)
 
 Postavio pitanje na http://cs.fit.ba/forums/148035/ShowThread.aspx#148035
+
+
+Referenca:
+http://redmine.bring.out.ba/issues/18819
+
