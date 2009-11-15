@@ -1,0 +1,8 @@
+running: gcc -lstdc++ switch_float.cpp
+
+switch_float.cpp: In function ‘int main()’:
+switch_float.cpp:10: error: switch quantity not an integer
+switch_float.cpp:11: error: ‘f’ cannot appear in a constant-expression
+ERRROR !!!!!!
+
+
