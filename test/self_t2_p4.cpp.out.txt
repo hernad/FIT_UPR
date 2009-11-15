@@ -1,0 +1,9 @@
+nasao: self_t2_p4.cpp, press enter to compile
+
+running: gcc -lstdc++ self_t2_p4.cpp
+press enter to run a.out
+
+----------------------- xxxxxxxxxxx ---------------------------
+c
+----------------------- xxxxxxxxxxx ---------------------------
+
