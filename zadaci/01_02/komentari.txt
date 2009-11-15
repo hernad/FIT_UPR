@@ -27,3 +27,13 @@ After a while of tying to debug the programs that were of format:
 
 *That's not legal according to the ANSI C standard; it also resulted in bad exit code if main() falls before its end.*
 
+
+Na kraju sam ovo postirao na cs FIT
+
+http://cs.fit.ba/forums/148045/ShowThread.aspx#148045
+
+uh ovo gore je pogrešno postirano na UIT
+
+napravio novi post na UPR:
+
+http://cs.fit.ba/forums/148049/ShowThread.aspx#148049
