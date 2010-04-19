@@ -259,7 +259,13 @@ void get_stavke_fakture()
 
 }
 
-int show_faktura_header()
+
+void show_kupac(int kupac_id)
+{
+	cout << "Kupac: " << get_kupac_naziv(kupac_id) << endl;
+}
+
+void show_faktura_header()
 {
 
   cout << setiosflags(ios::right)  << setw(6) << "R.br"
@@ -292,9 +298,12 @@ int show_stavka_fakture(int stavka_no)
 
 }
 
-void show_faktura()
+void show_faktura(int kupac_id)
 {
    show_zaglavlje();
+
+   show_kupac(kupac_id);
+   podvuci(LINIJA_DEBELA);
 
    show_faktura_header();
    podvuci(LINIJA_TANKA);
@@ -400,10 +409,18 @@ int main(int argc, char **argv) {
 	//cout << meni_odaberi_kupca();
 
 
-	get_stavke_fakture();
-	show_faktura();
+	int kupac_id = meni_odaberi_kupca();
 
-	cout << "kraj" << endl;
+	get_stavke_fakture();
+
+
+	// pomakni se par redova radi preglednosti
+	for (int i=0; i<5; i++)
+    	cout << endl;
+
+
+	show_faktura(kupac_id);
+
 	return 0;
 }
 
