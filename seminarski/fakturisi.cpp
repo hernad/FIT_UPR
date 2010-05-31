@@ -387,13 +387,15 @@ void usage(int argc, char **argv) {
 
 		// http://www.cplusplus.com/reference/clibrary/cstring/strcmp/
 		if (strcmp(t_arg, "--help") == 0) {
-		  cout << "UPR seminarski, hernad@bring.out.ba, ver 0.01" << endl << endl;
+		  cout << "UPR seminarski, hernad@bring.out.ba, ver 0.02" << endl << endl;
 		  cout << "Ovaj program omogucava unos pravljenje jednostavne porezne fakture" << endl;
 		  podvuci(LINIJA_DEBELA);
+                  exit(0);
 		}
 
 		if (strcmp(t_arg, "--test") == 0) {
 			test();
+                        exit(0);
 		}
 
 	};
